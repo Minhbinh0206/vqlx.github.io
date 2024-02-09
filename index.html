@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vòng Quay May Mắn</title>
+		<link rel="stylesheet" href="./style2.css" />
+	</head>
+	<body>
+		<audio id="myAudio" controls autoplay hidden>
+			<source src="audio/nhac.mp3" type="audio/mpeg">
+		</audio>
+		<main>
+			<section class="main">
+				<span>
+					<ul class="wheel"></ul>
+				</span>
+                <div>
+                    <div class="history">Lịch sử</div>
+                    <div class="dataHistory"></div>
+                </div>
+				<button class="btn--wheel">Nhận lì xì ngayyyy</button>
+			</section>
+			<h1 class="msg"></h1>
+		</main>
+		<script src="./main.js"></script>
+		<script type="text/javascript" src="https://sharethuthuat.com/php/tet/tet.js"></script>
+		<!-- <script>
+			var audio = document.getElementById("myAudio");
+			var savedTime = sessionStorage.getItem("audioTime");
+			if (savedTime) {
+				audio.currentTime = parseFloat(savedTime);
+			}
+	
+			audio.addEventListener("timeupdate", function () {
+				sessionStorage.setItem("audioTime", audio.currentTime.toString());
+			});
+	
+			audio.addEventListener("ended", function () {
+				window.location.href = "end.html";
+			});
+		</script> -->
+	</body>
+</html>
