@@ -182,10 +182,10 @@ button:hover {
 .history{
     position: absolute;
     right: 150px;
-    bottom: 160px;
+    bottom: 450px;
     font-size: 1.5rem;
 	font-family: newYearFont;
-    border-radius: 0 0 4rem 4rem;
+    border-radius: 4rem 4rem 0 0;
     color: #f7ebc4;
     padding: 7px 120px;
     background-color: #DE1013;
@@ -199,7 +199,7 @@ button:hover {
     height: auto;
     position: absolute;
     right: 150px;
-    bottom: 200px;
+    bottom: 420px;
     font-size: 1.5rem;
     color: #DE1013;
     background-color: #f7ebc4;
